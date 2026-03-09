@@ -6,7 +6,7 @@ RUN adduser -D -u 54000 radio && \
         apk update && \
         apk add git gcc musl-dev && \
         cd /opt && \
-        git clone https://github.com/ShaYmez/hblink3 && \
+        git clone https://github.com/Prondtoo/hblink3.git && \
         cd /opt/hblink3 && \
         pip install --no-cache-dir -r requirements.txt && \
         apk del git gcc musl-dev && \
